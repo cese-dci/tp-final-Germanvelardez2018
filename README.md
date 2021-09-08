@@ -1,16 +1,14 @@
 ## Trabajo práctico final de la asignatura DCI ##
 Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos de la carrera de posgrado de FIUBA.
 
-* Autor: XXXXCOMPLETARXXXX
-* Título corto del trabajo:  XXXXCOMPLETARXXXX
-* Descripción:  XXXXCOMPLETARXXXX
+* Autor: German Gabriel Velardez
+* Título corto del trabajo:  Replica de modulo de comunicacion basado en el chip SIM7000G
+* Descripción:  Modulo de comunicacion basado GSM/4G con GNSS incluido.
 
 
 ## Licencia de este trabajo ##
-XXXMENCIONAR ACÁ LA LICENCIAXXX (Editar este párrafo) 
-Y además colcar el archivo de texto de la misma en el directorio raíz.
-Para este TP se pide que la licencia sea de hardware abierto.
-Ver la sección "What license should I use?": https://www.oshwa.org/faq/
+La licencia utilizada en este proyecto es : <b>CERN Open Hardware Licence Version 2</b>. 
+
 
 ## Estructura del TP FINAL ##
 
