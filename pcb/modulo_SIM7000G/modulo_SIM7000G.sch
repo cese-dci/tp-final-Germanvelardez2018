@@ -1,0 +1,646 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Modulo de comunicacion basado en SIM7000G"
+Date "2021-09-08"
+Rev "Diego Brengi "
+Comp "FIUBA"
+Comment1 "Descripcion: Modulo de comunicacion basado en SIM7000G(GPRS,4G Y GNSS)"
+Comment2 "Autor: German Gabriel Velardez"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2950 1600 2450 1600
+Wire Wire Line
+	2450 1600 2450 1700
+Wire Wire Line
+	2450 1800 2950 1800
+Wire Wire Line
+	2950 1700 2450 1700
+Connection ~ 2450 1700
+Wire Wire Line
+	2450 1700 2450 1800
+Wire Wire Line
+	1400 1600 1750 1600
+Connection ~ 2450 1600
+Connection ~ 1750 1600
+$Comp
+L Device:C C?
+U 1 1 61398274
+P 1750 1750
+F 0 "C?" H 1865 1796 50  0000 L CNN
+F 1 "C" H 1865 1705 50  0000 L CNN
+F 2 "" H 1788 1600 50  0001 C CNN
+F 3 "~" H 1750 1750 50  0001 C CNN
+	1    1750 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1600 2100 1600
+Wire Wire Line
+	2450 1600 2100 1600
+$Comp
+L Device:C C?
+U 1 1 61398B01
+P 2100 1750
+F 0 "C?" H 2215 1796 50  0000 L CNN
+F 1 "C" H 2215 1705 50  0000 L CNN
+F 2 "" H 2138 1600 50  0001 C CNN
+F 3 "~" H 2100 1750 50  0001 C CNN
+	1    2100 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 2100 1600
+$Comp
+L Device:C C?
+U 1 1 61398E80
+P 1400 1750
+F 0 "C?" H 1515 1796 50  0000 L CNN
+F 1 "C" H 1515 1705 50  0000 L CNN
+F 2 "" H 1438 1600 50  0001 C CNN
+F 3 "~" H 1400 1750 50  0001 C CNN
+	1    1400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61399413
+P 1050 1750
+F 0 "C?" H 1165 1796 50  0000 L CNN
+F 1 "C" H 1165 1705 50  0000 L CNN
+F 2 "" H 1088 1600 50  0001 C CNN
+F 3 "~" H 1050 1750 50  0001 C CNN
+	1    1050 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 1600 1400 1600
+Connection ~ 1400 1600
+Wire Wire Line
+	1050 1900 1400 1900
+Wire Wire Line
+	1750 1900 1600 1900
+Connection ~ 1400 1900
+Wire Wire Line
+	1750 1900 2100 1900
+Connection ~ 1750 1900
+$Comp
+L power:GNDD #PWR?
+U 1 1 6139BB39
+P 1600 2100
+F 0 "#PWR?" H 1600 1850 50  0001 C CNN
+F 1 "GNDD" H 1604 1945 50  0000 C CNN
+F 2 "" H 1600 2100 50  0001 C CNN
+F 3 "" H 1600 2100 50  0001 C CNN
+	1    1600 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2100 1600 1900
+Connection ~ 1600 1900
+Wire Wire Line
+	1600 1900 1400 1900
+$Comp
+L power:VDD #PWR?
+U 1 1 613A6D27
+P 5150 1300
+F 0 "#PWR?" H 5150 1150 50  0001 C CNN
+F 1 "VDD" H 5165 1473 50  0000 C CNN
+F 2 "" H 5150 1300 50  0001 C CNN
+F 3 "" H 5150 1300 50  0001 C CNN
+	1    5150 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 1650 5150 1300
+Wire Wire Line
+	4950 1650 5150 1650
+Wire Wire Line
+	4800 2100 4950 2100
+$Comp
+L RF_GSM:SIM7000G U?
+U 1 1 6138CC45
+P -6600 -5700
+F 0 "U?" H -6550 -5650 50  0000 C CNN
+F 1 "SIM7000G" H 3950 -12760 50  0000 C CNN
+F 2 "" H 3100 -12900 50  0001 C CNN
+F 3 "" H 3100 -12900 50  0001 C CNN
+	1    -6600 -5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2300 8550 2300
+$Comp
+L SN74LV1T34DCKR:SN74LV1T34DCKR U?
+U 1 1 61390F81
+P 8950 2250
+F 0 "U?" H 8900 2615 50  0000 C CNN
+F 1 "SN74LV1T34DCKR" H 8900 2524 50  0000 C CNN
+F 2 "" H 8700 1900 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1631112848503&ref_url=https%253A%252F%252Far.mouser.com%252F" H 8700 1900 50  0001 C CNN
+	1    8950 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2400 8050 2400
+Wire Wire Line
+	8050 2400 8050 3350
+$Comp
+L power:VDD #PWR?
+U 1 1 613A9B4D
+P 9350 3100
+F 0 "#PWR?" H 9350 2950 50  0001 C CNN
+F 1 "VDD" H 9365 3273 50  0000 C CNN
+F 2 "" H 9350 3100 50  0001 C CNN
+F 3 "" H 9350 3100 50  0001 C CNN
+	1    9350 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 3200 9350 3200
+Wire Wire Line
+	9350 3200 9350 3100
+Wire Wire Line
+	9250 3500 9350 3500
+$Comp
+L power:GNDREF #PWR?
+U 1 1 613AF85E
+P 8450 2700
+F 0 "#PWR?" H 8450 2450 50  0001 C CNN
+F 1 "GNDREF" H 8455 2527 50  0000 C CNN
+F 2 "" H 8450 2700 50  0001 C CNN
+F 3 "" H 8450 2700 50  0001 C CNN
+	1    8450 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 2700 8450 2450
+Wire Wire Line
+	8450 2450 8550 2450
+$Comp
+L Device:C C?
+U 1 1 613B0577
+P 8100 1900
+F 0 "C?" H 7985 1854 50  0000 R CNN
+F 1 "C" H 7985 1945 50  0000 R CNN
+F 2 "" H 8138 1750 50  0001 C CNN
+F 3 "~" H 8100 1900 50  0001 C CNN
+	1    8100 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VDD #PWR?
+U 1 1 613B0F64
+P 8550 1600
+F 0 "#PWR?" H 8550 1450 50  0001 C CNN
+F 1 "VDD" H 8565 1773 50  0000 C CNN
+F 2 "" H 8550 1600 50  0001 C CNN
+F 3 "" H 8550 1600 50  0001 C CNN
+	1    8550 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 1750 8550 1750
+Wire Wire Line
+	8550 1600 8550 1750
+Connection ~ 8550 1750
+Wire Wire Line
+	8550 1750 8550 2150
+$Comp
+L power:GNDREF #PWR?
+U 1 1 613B3553
+P 8100 2050
+F 0 "#PWR?" H 8100 1800 50  0001 C CNN
+F 1 "GNDREF" H 8105 1877 50  0000 C CNN
+F 2 "" H 8100 2050 50  0001 C CNN
+F 3 "" H 8100 2050 50  0001 C CNN
+	1    8100 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L SN74LV1T34DCKR:SN74LV1T34DCKR U?
+U 1 1 613B491F
+P 8950 4650
+F 0 "U?" H 8900 5015 50  0000 C CNN
+F 1 "SN74LV1T34DCKR" H 8900 4924 50  0000 C CNN
+F 2 "" H 8700 4300 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1631112848503&ref_url=https%253A%252F%252Far.mouser.com%252F" H 8700 4300 50  0001 C CNN
+	1    8950 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2500 7900 2500
+Wire Wire Line
+	7900 4700 8550 4700
+$Comp
+L Device:C C?
+U 1 1 613B9770
+P 8100 4300
+F 0 "C?" H 8215 4346 50  0000 L CNN
+F 1 "C" H 8215 4255 50  0000 L CNN
+F 2 "" H 8138 4150 50  0001 C CNN
+F 3 "~" H 8100 4300 50  0001 C CNN
+	1    8100 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2500 7900 4700
+$Comp
+L power:GNDREF #PWR?
+U 1 1 613C3791
+P 8100 4450
+F 0 "#PWR?" H 8100 4200 50  0001 C CNN
+F 1 "GNDREF" H 8105 4277 50  0000 C CNN
+F 2 "" H 8100 4450 50  0001 C CNN
+F 3 "" H 8100 4450 50  0001 C CNN
+	1    8100 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 3350 8050 3350
+$Comp
+L power:VDD #PWR?
+U 1 1 613CDCED
+P 8550 4050
+F 0 "#PWR?" H 8550 3900 50  0001 C CNN
+F 1 "VDD" H 8565 4223 50  0000 C CNN
+F 2 "" H 8550 4050 50  0001 C CNN
+F 3 "" H 8550 4050 50  0001 C CNN
+	1    8550 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 4150 8550 4150
+Wire Wire Line
+	8550 4150 8550 4050
+Wire Wire Line
+	8550 4150 8550 4550
+Connection ~ 8550 4150
+$Comp
+L power:GNDREF #PWR?
+U 1 1 613D7095
+P 8550 5000
+F 0 "#PWR?" H 8550 4750 50  0001 C CNN
+F 1 "GNDREF" H 8555 4827 50  0000 C CNN
+F 2 "" H 8550 5000 50  0001 C CNN
+F 3 "" H 8550 5000 50  0001 C CNN
+	1    8550 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 4850 8550 5000
+$Comp
+L power:GNDREF #PWR?
+U 1 1 613D94AA
+P 3950 4400
+F 0 "#PWR?" H 3950 4150 50  0001 C CNN
+F 1 "GNDREF" H 3955 4227 50  0000 C CNN
+F 2 "" H 3950 4400 50  0001 C CNN
+F 3 "" H 3950 4400 50  0001 C CNN
+	1    3950 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4050 3250 4200
+Wire Wire Line
+	4650 4200 4650 4050
+Wire Wire Line
+	4550 4050 4550 4200
+Connection ~ 4550 4200
+Wire Wire Line
+	4550 4200 4650 4200
+Wire Wire Line
+	4450 4050 4450 4200
+Connection ~ 4450 4200
+Wire Wire Line
+	4450 4200 4550 4200
+Wire Wire Line
+	4350 4050 4350 4200
+Connection ~ 4350 4200
+Wire Wire Line
+	4350 4200 4450 4200
+Wire Wire Line
+	4250 4050 4250 4200
+Connection ~ 4250 4200
+Wire Wire Line
+	4250 4200 4350 4200
+Wire Wire Line
+	4150 4050 4150 4200
+Connection ~ 4150 4200
+Wire Wire Line
+	4150 4200 4250 4200
+Wire Wire Line
+	4050 4050 4050 4200
+Connection ~ 4050 4200
+Wire Wire Line
+	4050 4200 4150 4200
+Wire Wire Line
+	3950 4050 3950 4200
+Connection ~ 3950 4200
+Wire Wire Line
+	3950 4200 4050 4200
+Wire Wire Line
+	3850 4050 3850 4200
+Connection ~ 3850 4200
+Wire Wire Line
+	3750 4050 3750 4200
+Connection ~ 3750 4200
+Wire Wire Line
+	3750 4200 3850 4200
+Wire Wire Line
+	3650 4050 3650 4200
+Connection ~ 3650 4200
+Wire Wire Line
+	3650 4200 3750 4200
+Wire Wire Line
+	3550 4050 3550 4200
+Connection ~ 3550 4200
+Wire Wire Line
+	3550 4200 3650 4200
+Wire Wire Line
+	3450 4050 3450 4200
+Wire Wire Line
+	3250 4200 3350 4200
+Connection ~ 3450 4200
+Wire Wire Line
+	3450 4200 3550 4200
+Wire Wire Line
+	3350 4050 3350 4200
+Connection ~ 3350 4200
+Wire Wire Line
+	3350 4200 3450 4200
+Wire Wire Line
+	3850 4200 3950 4200
+Wire Wire Line
+	3950 4200 3950 4400
+$Comp
+L Device:R R?
+U 1 1 613EC380
+P 9350 4500
+F 0 "R?" H 9420 4546 50  0000 L CNN
+F 1 "R" H 9420 4455 50  0000 L CNN
+F 2 "" V 9280 4500 50  0001 C CNN
+F 3 "~" H 9350 4500 50  0001 C CNN
+	1    9350 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 4700 9350 4700
+Wire Wire Line
+	9350 4700 9350 4650
+$Comp
+L power:GNDREF #PWR?
+U 1 1 613F11CF
+P 10000 4250
+F 0 "#PWR?" H 10000 4000 50  0001 C CNN
+F 1 "GNDREF" H 10005 4077 50  0000 C CNN
+F 2 "" H 10000 4250 50  0001 C CNN
+F 3 "" H 10000 4250 50  0001 C CNN
+	1    10000 4250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9350 3500 9350 3700
+$Comp
+L SN74LV1T34DCKR:SN74LV1T34DCKR U?
+U 1 1 613D1CF4
+P 8850 3300
+F 0 "U?" H 8800 3665 50  0000 C CNN
+F 1 "SN74LV1T34DCKR" H 8800 3574 50  0000 C CNN
+F 2 "" H 8600 2950 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1631112848503&ref_url=https%253A%252F%252Far.mouser.com%252F" H 8600 2950 50  0001 C CNN
+	1    8850 3300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 613A2327
+P 9350 3700
+F 0 "#PWR?" H 9350 3450 50  0001 C CNN
+F 1 "GNDREF" H 9355 3527 50  0000 C CNN
+F 2 "" H 9350 3700 50  0001 C CNN
+F 3 "" H 9350 3700 50  0001 C CNN
+	1    9350 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6140D816
+P 9500 3200
+F 0 "C?" V 9248 3200 50  0000 C CNN
+F 1 "C" V 9339 3200 50  0000 C CNN
+F 2 "" H 9538 3050 50  0001 C CNN
+F 3 "~" H 9500 3200 50  0001 C CNN
+	1    9500 3200
+	0    1    1    0   
+$EndComp
+Connection ~ 9350 3200
+$Comp
+L power:GNDREF #PWR?
+U 1 1 6140E2F1
+P 9950 3200
+F 0 "#PWR?" H 9950 2950 50  0001 C CNN
+F 1 "GNDREF" H 9955 3027 50  0000 C CNN
+F 2 "" H 9950 3200 50  0001 C CNN
+F 3 "" H 9950 3200 50  0001 C CNN
+	1    9950 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9650 3200 9950 3200
+$Comp
+L Device:LED D?
+U 1 1 61432B79
+P 9650 4250
+F 0 "D?" H 9643 3995 50  0000 C CNN
+F 1 "LED" H 9643 4086 50  0000 C CNN
+F 2 "" H 9650 4250 50  0001 C CNN
+F 3 "~" H 9650 4250 50  0001 C CNN
+	1    9650 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9500 4250 9350 4250
+Wire Wire Line
+	9350 4250 9350 4350
+Wire Wire Line
+	9800 4250 10000 4250
+$Comp
+L NTE4153NT1G:NTE4153NT1G Q?
+U 1 1 6143BDA3
+P 9750 5750
+F 0 "Q?" H 10180 5896 50  0000 L CNN
+F 1 "NTE4153NT1G" H 10180 5805 50  0000 L CNN
+F 2 "SOTFL50P160X80-3N" H 10200 5700 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/NTA4153N-D.PDF" H 10200 5600 50  0001 L CNN
+F 4 "N-channel MOSFET Transistor, 0.915 A, 20 V, 3-pin SC-89" H 10200 5500 50  0001 L CNN "Description"
+F 5 "0.8" H 10200 5400 50  0001 L CNN "Height"
+F 6 "ON Semiconductor" H 10200 5300 50  0001 L CNN "Manufacturer_Name"
+F 7 "NTE4153NT1G" H 10200 5200 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "863-NTE4153NT1G" H 10200 5100 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NTE4153NT1G?qs=ZXBb0xZ9WeAVyL4gtyb0gg%3D%3D" H 10200 5000 50  0001 L CNN "Mouser Price/Stock"
+F 10 "NTE4153NT1G" H 10200 4900 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/nte4153nt1g/on-semiconductor" H 10200 4800 50  0001 L CNN "Arrow Price/Stock"
+	1    9750 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3100 7300 3100
+$Comp
+L Device:R R?
+U 1 1 6144734F
+P 10550 5000
+F 0 "R?" H 10620 5046 50  0000 L CNN
+F 1 "R" H 10620 4955 50  0000 L CNN
+F 2 "" V 10480 5000 50  0001 C CNN
+F 3 "~" H 10550 5000 50  0001 C CNN
+	1    10550 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61447EB6
+P 10400 5250
+F 0 "D?" H 10393 5467 50  0000 C CNN
+F 1 "LED" H 10393 5376 50  0000 C CNN
+F 2 "" H 10400 5250 50  0001 C CNN
+F 3 "~" H 10400 5250 50  0001 C CNN
+	1    10400 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 5350 10050 5250
+Wire Wire Line
+	10050 5250 10250 5250
+Wire Wire Line
+	10550 5250 10550 5150
+$Comp
+L Device:R R?
+U 1 1 6144CA1E
+P 9750 6000
+F 0 "R?" H 9680 5954 50  0000 R CNN
+F 1 "R" H 9680 6045 50  0000 R CNN
+F 2 "" V 9680 6000 50  0001 C CNN
+F 3 "~" H 9750 6000 50  0001 C CNN
+	1    9750 6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9750 5850 9750 5750
+Wire Wire Line
+	7300 3100 7300 5750
+Wire Wire Line
+	9750 5750 7300 5750
+Connection ~ 9750 5750
+$Comp
+L power:GNDREF #PWR?
+U 1 1 6145BDF7
+P 10050 6250
+F 0 "#PWR?" H 10050 6000 50  0001 C CNN
+F 1 "GNDREF" H 10055 6077 50  0000 C CNN
+F 2 "" H 10050 6250 50  0001 C CNN
+F 3 "" H 10050 6250 50  0001 C CNN
+	1    10050 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 5950 10050 6150
+Wire Wire Line
+	9750 6150 10050 6150
+Connection ~ 10050 6150
+Wire Wire Line
+	10050 6150 10050 6250
+$Comp
+L power:VDD #PWR?
+U 1 1 61460A98
+P 10550 4800
+F 0 "#PWR?" H 10550 4650 50  0001 C CNN
+F 1 "VDD" H 10565 4973 50  0000 C CNN
+F 2 "" H 10550 4800 50  0001 C CNN
+F 3 "" H 10550 4800 50  0001 C CNN
+	1    10550 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 4850 10550 4800
+$Comp
+L NTE4153NT1G:NTE4153NT1G Q?
+U 1 1 6146A9EB
+P 1250 2900
+F 0 "Q?" H 1680 3046 50  0000 L CNN
+F 1 "NTE4153NT1G" H 1680 2955 50  0000 L CNN
+F 2 "SOTFL50P160X80-3N" H 1700 2850 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/NTA4153N-D.PDF" H 1700 2750 50  0001 L CNN
+F 4 "N-channel MOSFET Transistor, 0.915 A, 20 V, 3-pin SC-89" H 1700 2650 50  0001 L CNN "Description"
+F 5 "0.8" H 1700 2550 50  0001 L CNN "Height"
+F 6 "ON Semiconductor" H 1700 2450 50  0001 L CNN "Manufacturer_Name"
+F 7 "NTE4153NT1G" H 1700 2350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "863-NTE4153NT1G" H 1700 2250 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NTE4153NT1G?qs=ZXBb0xZ9WeAVyL4gtyb0gg%3D%3D" H 1700 2150 50  0001 L CNN "Mouser Price/Stock"
+F 10 "NTE4153NT1G" H 1700 2050 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/nte4153nt1g/on-semiconductor" H 1700 1950 50  0001 L CNN "Arrow Price/Stock"
+	1    1250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NTE4153NT1G:NTE4153NT1G Q?
+U 1 1 6146EC82
+P 1250 4000
+F 0 "Q?" H 1680 4146 50  0000 L CNN
+F 1 "NTE4153NT1G" H 1680 4055 50  0000 L CNN
+F 2 "SOTFL50P160X80-3N" H 1700 3950 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/NTA4153N-D.PDF" H 1700 3850 50  0001 L CNN
+F 4 "N-channel MOSFET Transistor, 0.915 A, 20 V, 3-pin SC-89" H 1700 3750 50  0001 L CNN "Description"
+F 5 "0.8" H 1700 3650 50  0001 L CNN "Height"
+F 6 "ON Semiconductor" H 1700 3550 50  0001 L CNN "Manufacturer_Name"
+F 7 "NTE4153NT1G" H 1700 3450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "863-NTE4153NT1G" H 1700 3350 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor/NTE4153NT1G?qs=ZXBb0xZ9WeAVyL4gtyb0gg%3D%3D" H 1700 3250 50  0001 L CNN "Mouser Price/Stock"
+F 10 "NTE4153NT1G" H 1700 3150 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/nte4153nt1g/on-semiconductor" H 1700 3050 50  0001 L CNN "Arrow Price/Stock"
+	1    1250 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 2500 2450 2500
+Wire Wire Line
+	2450 2500 2450 1950
+Wire Wire Line
+	2450 1950 2950 1950
+Wire Wire Line
+	1550 3600 2500 3600
+Wire Wire Line
+	2500 3600 2500 2050
+Wire Wire Line
+	2500 2050 2950 2050
+$Comp
+L power:GNDREF #PWR?
+U 1 1 61475711
+P 1550 3300
+F 0 "#PWR?" H 1550 3050 50  0001 C CNN
+F 1 "GNDREF" H 1555 3127 50  0000 C CNN
+F 2 "" H 1550 3300 50  0001 C CNN
+F 3 "" H 1550 3300 50  0001 C CNN
+	1    1550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR?
+U 1 1 61475D06
+P 1550 4400
+F 0 "#PWR?" H 1550 4150 50  0001 C CNN
+F 1 "GNDREF" H 1555 4227 50  0000 C CNN
+F 2 "" H 1550 4400 50  0001 C CNN
+F 3 "" H 1550 4400 50  0001 C CNN
+	1    1550 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 4400 1550 4200
+Wire Wire Line
+	1550 3300 1550 3100
+$EndSCHEMATC

@@ -1,0 +1,133 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Modulo de comunicacion basado en SIM7000G"
+Date "2021-09-08"
+Rev "Diego Brengi "
+Comp "FIUBA"
+Comment1 "Resumen: Modulo de comunicacion basado en SIM7000G(GPRS,4G Y GNSS)"
+Comment2 "Autor: German Gabriel Velardez"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RF_GSM:SIM7000G U?
+U 1 1 6138CC45
+P -6600 -5700
+F 0 "U?" H 3950 -12669 50  0000 C CNN
+F 1 "SIM7000G" H 3950 -12760 50  0000 C CNN
+F 2 "" H 3100 -12900 50  0001 C CNN
+F 3 "" H 3100 -12900 50  0001 C CNN
+	1    -6600 -5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1600 2450 1600
+Wire Wire Line
+	2450 1600 2450 1700
+Wire Wire Line
+	2450 1800 2950 1800
+Wire Wire Line
+	2950 1700 2450 1700
+Connection ~ 2450 1700
+Wire Wire Line
+	2450 1700 2450 1800
+Wire Wire Line
+	1400 1600 1750 1600
+Connection ~ 2450 1600
+Connection ~ 1750 1600
+$Comp
+L Device:C C?
+U 1 1 61398274
+P 1750 1750
+F 0 "C?" H 1865 1796 50  0000 L CNN
+F 1 "C" H 1865 1705 50  0000 L CNN
+F 2 "" H 1788 1600 50  0001 C CNN
+F 3 "~" H 1750 1750 50  0001 C CNN
+	1    1750 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 1600 2100 1600
+Wire Wire Line
+	2450 1600 2100 1600
+$Comp
+L Device:C C?
+U 1 1 61398B01
+P 2100 1750
+F 0 "C?" H 2215 1796 50  0000 L CNN
+F 1 "C" H 2215 1705 50  0000 L CNN
+F 2 "" H 2138 1600 50  0001 C CNN
+F 3 "~" H 2100 1750 50  0001 C CNN
+	1    2100 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 2100 1600
+$Comp
+L Device:C C?
+U 1 1 61398E80
+P 1400 1750
+F 0 "C?" H 1515 1796 50  0000 L CNN
+F 1 "C" H 1515 1705 50  0000 L CNN
+F 2 "" H 1438 1600 50  0001 C CNN
+F 3 "~" H 1400 1750 50  0001 C CNN
+	1    1400 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61399413
+P 1050 1750
+F 0 "C?" H 1165 1796 50  0000 L CNN
+F 1 "C" H 1165 1705 50  0000 L CNN
+F 2 "" H 1088 1600 50  0001 C CNN
+F 3 "~" H 1050 1750 50  0001 C CNN
+	1    1050 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 1600 1400 1600
+Connection ~ 1400 1600
+Wire Wire Line
+	1050 1900 1400 1900
+Wire Wire Line
+	1750 1900 1600 1900
+Connection ~ 1400 1900
+Wire Wire Line
+	1750 1900 2100 1900
+Connection ~ 1750 1900
+$Comp
+L power:GNDD #PWR?
+U 1 1 6139BB39
+P 1600 2100
+F 0 "#PWR?" H 1600 1850 50  0001 C CNN
+F 1 "GNDD" H 1604 1945 50  0000 C CNN
+F 2 "" H 1600 2100 50  0001 C CNN
+F 3 "" H 1600 2100 50  0001 C CNN
+	1    1600 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2100 1600 1900
+Connection ~ 1600 1900
+Wire Wire Line
+	1600 1900 1400 1900
+$Comp
+L power:VDD #PWR?
+U 1 1 613A6D27
+P 5150 1300
+F 0 "#PWR?" H 5150 1150 50  0001 C CNN
+F 1 "VDD" H 5165 1473 50  0000 C CNN
+F 2 "" H 5150 1300 50  0001 C CNN
+F 3 "" H 5150 1300 50  0001 C CNN
+	1    5150 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1650 5150 1650
+Wire Wire Line
+	5150 1650 5150 1300
+$EndSCHEMATC
