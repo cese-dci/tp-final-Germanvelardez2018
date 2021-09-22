@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 9)
+    (drawings 10)
     (tracks 0)
     (zones 0)
     (modules 56)
@@ -2574,6 +2574,18 @@
       (solder_mask_margin 0.5) (clearance 0.5))
   )
 
+  (dimension 50 (width 0.15) (layer Dwgs.User)
+    (gr_text "50,000 mm" (at 230.3 100 270) (layer Dwgs.User)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (feature1 (pts (xy 200 125) (xy 229.586421 125)))
+    (feature2 (pts (xy 200 75) (xy 229.586421 75)))
+    (crossbar (pts (xy 229 75) (xy 229 125)))
+    (arrow1a (pts (xy 229 125) (xy 228.413579 123.873496)))
+    (arrow1b (pts (xy 229 125) (xy 229.586421 123.873496)))
+    (arrow2a (pts (xy 229 75) (xy 228.413579 76.126504)))
+    (arrow2b (pts (xy 229 75) (xy 229.586421 76.126504)))
+  )
   (gr_line (start 194 76) (end 96 76) (layer Margin) (width 0.15) (tstamp 614AEC21))
   (gr_line (start 194 124) (end 194 76) (layer Margin) (width 0.15))
   (gr_line (start 96 124) (end 194 124) (layer Margin) (width 0.15))
