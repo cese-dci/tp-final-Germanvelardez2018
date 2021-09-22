@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Modulo de comunicacion basado en SIM7000G"
+Title "Replica modulo de comunicacion basado en SIM7000G"
 Date "2021-09-08"
 Rev "Diego Brengi "
 Comp "FIUBA"
-Comment1 "Descripcion: Modulo de comunicacion basado en SIM7000G(GPRS,4G Y GNSS)"
+Comment1 "Descripcion: Replica modulo de comunicacion basado en SIM7000G(GPRS,4G Y GNSS)"
 Comment2 "Autor: German Gabriel Velardez"
 Comment3 ""
 Comment4 ""
@@ -720,7 +720,7 @@ L Connector_Generic:Conn_01x04 J3
 U 1 1 627BA5E1
 P 10750 2700
 F 0 "J3" H 10830 2692 50  0000 L CNN
-F 1 "CONECTOR SERIAL" H 10550 2350 50  0000 L CNN
+F 1 "INTERFAZ SERIAL" H 10550 2350 50  0000 L CNN
 F 2 "Connector:FanPinHeader_1x04_P2.54mm_Vertical" H 10750 2700 50  0001 C CNN
 F 3 "~" H 10750 2700 50  0001 C CNN
 	1    10750 2700
@@ -857,7 +857,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 4200 7450 4750
 Text Notes 10450 4750 0    50   ~ 0
-LED DE ESTADOS\n
+LED DE ESTADO\n
 Wire Wire Line
 	3000 4100 3000 7550
 Wire Wire Line
@@ -935,7 +935,7 @@ Wire Notes Line
 Wire Notes Line
 	550  6950 2300 6950
 Text Notes 550  5900 0    50   ~ 0
-FUENTE USB (3.3V)
+REGULADOR USB (3.3V)
 Text Notes 9000 5350 0    50   ~ 0
 NETLIGHT
 Wire Wire Line
@@ -1445,7 +1445,7 @@ Wire Notes Line
 Wire Wire Line
 	3550 1500 3650 1500
 $Comp
-L DCJ200-10-A-XX-X_REVA:DCJ200-10-A-XX-X_REVA J5
+L modulo_SIM7000G-rescue:DCJ200-10-A-XX-X_REVA-DCJ200-10-A-XX-X_REVA J5
 U 1 1 614B53F2
 P 3250 1300
 F 0 "J5" H 3307 1767 50  0000 C CNN
@@ -1765,7 +1765,7 @@ F 3 "~" H 8150 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn_ufl:1661 J7
+L modulo_SIM7000G-rescue:1661-conn_ufl J7
 U 1 1 615BD618
 P 6450 1600
 F 0 "J7" V 6745 1472 60  0000 R CNN
@@ -1776,7 +1776,7 @@ F 3 "" H 6450 1600 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conn_ufl:1661 J6
+L modulo_SIM7000G-rescue:1661-conn_ufl J6
 U 1 1 6160E28F
 P 6000 1600
 F 0 "J6" V 6295 1472 60  0000 R CNN
