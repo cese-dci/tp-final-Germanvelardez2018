@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name SIM7000)(type Legacy)(uri /home/gvelardez/Escritorio/SIM7000G/OBDII_IoT.lib)(options "")(descr ""))
+  (lib (name modulo_SIM7000G-rescue)(type Legacy)(uri ${KIPRJMOD}/modulo_SIM7000G-rescue.lib)(options "")(descr ""))
+  (lib (name DCJ250-10-A_XX-X_REVA)(type Legacy)(uri /home/gvelardez/Escritorio/CLASES_CIRCUITOS_DIEGO/tp-final-Germanvelardez2018/pcb/DCJ250-10-A_XX-X_REVA/DCJ250-10-A_XX-X_REVA.lib)(options "")(descr ""))
+  (lib (name DCJ200-10-A-XX-X_REVA)(type Legacy)(uri /home/gvelardez/Escritorio/CLASES_CIRCUITOS_DIEGO/tp-final-Germanvelardez2018/pcb/DCJ200-10-A-XX-X_REVA/DCJ200-10-A-XX-X_REVA.lib)(options "")(descr ""))
+  (lib (name 115Q-BCA0)(type Legacy)(uri /home/gvelardez/Escritorio/CLASES_CIRCUITOS_DIEGO/tp-final-Germanvelardez2018/pcb/115Q-BCA0/KiCad/115Q-BCA0.lib)(options "")(descr ""))
+)

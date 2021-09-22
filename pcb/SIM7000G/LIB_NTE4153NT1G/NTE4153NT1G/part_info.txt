@@ -1,0 +1,9 @@
+Manufacturer=ON Semiconductor
+PartNumber=NTE4153NT1G
+PartCategory=MOSFET (N-Channel)
+PackageCategory=SO Transistor Flat Lead
+PinCount=3
+Version=1.1
+Released=2015-08-29 05:34:54
+Downloaded=2021-09-22 12:08:06
+3D=Y
