@@ -27,6 +27,6 @@ El objetivo del proyecto es utilizando como base el esquematico del producto de 
   ### Primera tentativa de posicionamiento de elementos
   
 <p align="center">
-  <img src="./modulo_SIM7000G.jpg" width="480" height="320" >
+  <img src="./tentativo_modulo_SIM7000G.jpg" width="480" height="320" >
 </p>
  
