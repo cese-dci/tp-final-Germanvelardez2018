@@ -1,0 +1,245 @@
+.HEA
+.TIM mié 29 sep 2021 18:37:45
+.APP "Eeschema 5.1.10-88a1d61d58~90~ubuntu20.04.1"
+
+.ADD_COM Q2 NTE4153NT1G  Package_TO_SOT_SMD:SOT-416
+.ADD_COM Q1 NTE4153NT1G  Package_TO_SOT_SMD:SOT-416
+.ADD_COM C2 1uF  Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+.ADD_COM C4 47pF  Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+.ADD_COM C3 100nF  Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+.ADD_COM R1 10K  Resistor_SMD:R_0805_2012Metric
+.ADD_COM R2 10K  Resistor_SMD:R_0805_2012Metric
+.ADD_COM J1 INTERFAZ USB  Connector_PinHeader_2.00mm:PinHeader_1x04_P2.00mm_Vertical
+.ADD_COM U5 SN74LV1T34DCKR  Package_TO_SOT_SMD:SOT-23-5
+.ADD_COM R9 100K  Resistor_SMD:R_0805_2012Metric
+.ADD_COM R10 47K  Resistor_SMD:R_0805_2012Metric
+.ADD_COM C7 470uFx16V  Capacitor_SMD:CP_Elec_8x10
+.ADD_COM C10 1uF  Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+.ADD_COM L1 47nH  Inductor_SMD:L_0805_2012Metric
+.ADD_COM R12 10  Resistor_SMD:R_0805_2012Metric
+.ADD_COM C13 47pF  Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+.ADD_COM C17 47pF  Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+.ADD_COM C11 100uFx16V  Capacitor_SMD:CP_Elec_6.3x9.9
+.ADD_COM R11 470K  Resistor_SMD:R_0805_2012Metric
+.ADD_COM U4 SN74LV1T34DCKR  Package_TO_SOT_SMD:SOT-23-5
+.ADD_COM J3 INTERFAZ UART  Connector:FanPinHeader_1x04_P2.54mm_Vertical
+.ADD_COM U3 SN74LV1T34DCKR  Package_TO_SOT_SMD:SOT-23-5
+.ADD_COM U6 SN74LV1T34DCKR  Package_TO_SOT_SMD:SOT-23-5
+.ADD_COM C18 100nF  Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+.ADD_COM R13 330  Resistor_SMD:R_0805_2012Metric
+.ADD_COM D2 LED  LED_SMD:LED_0805_2012Metric
+.ADD_COM C20 10uF  Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+.ADD_COM R7 330  Resistor_SMD:R_0805_2012Metric
+.ADD_COM J4 Conn_01x02  Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical
+.ADD_COM C1 100uFx16V  Capacitor_SMD:CP_Elec_6.3x9.9
+.ADD_COM D3 DIODE  Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+.ADD_COM C19 10uF  Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+.ADD_COM C5 100nF  Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+.ADD_COM C6 100nF  Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+.ADD_COM C8 100nF  Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+.ADD_COM C9 100nF  Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+.ADD_COM C12 100nF  Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+.ADD_COM C21 100nF  Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+.ADD_COM U7 MIC29302WU  Package_TO_SOT_SMD:TO-263-5_TabPin3
+.ADD_COM U8 LM1117-3.3  Package_TO_SOT_SMD:SOT-223
+.ADD_COM J5 Jack-DC  Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal
+.ADD_COM R3 22  Resistor_SMD:R_0805_2012Metric
+.ADD_COM R4 22  Resistor_SMD:R_0805_2012Metric
+.ADD_COM R5 22  Resistor_SMD:R_0805_2012Metric
+.ADD_COM C22 100nF  Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+.ADD_COM U1 SIM7000G  RF_GSM:SIM7000
+.ADD_COM C14 47pF  Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+.ADD_COM C15 47pF  Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+.ADD_COM C16 47pF  Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+.ADD_COM FID1 Fiducial  Fiducial:Fiducial_1mm_Mask2mm
+.ADD_COM FID2 Fiducial  Fiducial:Fiducial_1mm_Mask2mm
+.ADD_COM J7 1661  conn_ufl:1661
+.ADD_COM J6 1661  conn_ufl:1661
+.ADD_COM J2 115Q-BCA0  115Q-BCA0:115QBCA0
+.ADD_COM U2 SN74LV1T34DCKR  Package_TO_SOT_SMD:SOT-23-5
+.ADD_COM D1 LED  LED_SMD:LED_0805_2012Metric
+.ADD_COM R6 10K  Resistor_SMD:R_0805_2012Metric
+.ADD_COM Q3 NTE4153NT1G  Package_TO_SOT_SMD:SOT-416
+.ADD_COM H1 MountingHole  MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad_TopBottom
+.ADD_COM H2 MountingHole  MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad_TopBottom
+.ADD_COM H3 MountingHole  MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad_TopBottom
+
+
+.ADD_TER C17.2  Net-(C17-Pad2)
+.TER     U1.53
+.ADD_TER U1.32  Net-(C15-Pad1)
+.TER     R4.1
+         C15.1
+.ADD_TER U1.30  Net-(C22-Pad1)
+.TER     C22.1
+.ADD_TER U1.10  Net-(U1-Pad10)
+.TER     U3.4
+.ADD_TER J2.P2  Net-(J2-PadP2)
+.TER     R5.2
+.ADD_TER J2.P1  Net-(C22-Pad2)
+.TER     C22.2
+.ADD_TER U1.28  Net-(J1-Pad2)
+.TER     J1.2
+.ADD_TER U1.3  Net-(U1-Pad3)
+.TER     U2.4
+.ADD_TER R5.1  Net-(C16-Pad1)
+.TER     C16.1
+         U1.33
+.ADD_TER U5.2  Net-(U1-Pad9)
+.TER     U1.9
+.ADD_TER U1.4  Net-(U1-Pad4)
+.TER     U4.2
+.ADD_TER U8.2  +3V3
+.TER     U4.5
+         U5.5
+         U6.5
+         C18.1
+         C8.2
+         C6.2
+         C20.1
+.ADD_TER J3.1  Net-(J3-Pad1)
+.TER     U2.2
+.ADD_TER R9.1  +BATT
+.TER     C2.1
+         C4.1
+         U1.56
+         C3.1
+         U1.55
+         U1.57
+         U7.4
+         C5.1
+         C1.1
+         R7.1
+         R11.1
+         C11.1
+         R12.1
+.ADD_TER J5.1  +5VD
+.TER     C10.1
+         C7.1
+         U7.2
+         U7.1
+         D3.1
+.ADD_TER D1.1  Net-(D1-Pad1)
+.TER     Q3.3
+.ADD_TER R7.2  Net-(D1-Pad2)
+.TER     D1.2
+.ADD_TER Q3.1  Net-(Q3-Pad1)
+.TER     R6.2
+         U1.52
+.ADD_TER U3.5  VDD
+.TER     C9.1
+         U2.5
+         C12.1
+         U1.15
+.ADD_TER U1.60  Net-(J7-Pad1)
+.TER     J7.1
+.ADD_TER R3.1  Net-(C14-Pad1)
+.TER     U1.31
+         C14.1
+.ADD_TER R1.1  GND
+.TER     C12.2
+         C20.2
+         C1.2
+         U7.3
+         Q2.2
+         J5.3
+         Q1.2
+         C4.2
+         C2.2
+         C14.2
+         J1.4
+         R2.1
+         U5.3
+         C3.2
+         C21.2
+         C18.2
+         U4.3
+         C11.2
+         U6.3
+         R11.2
+         U1.17
+         U3.3
+         D2.1
+         C16.2
+         U1.63
+         U1.64
+         U1.18
+         U1.2
+         C19.2
+         U1.29
+         C9.2
+         U1.62
+         U1.39
+         C6.1
+         C5.2
+         C8.1
+         U1.46
+         U1.54
+         U1.45
+         U1.58
+         U1.59
+         U1.61
+         U8.1
+         C7.2
+         R10.2
+         U1.65
+         J2.G4
+         J2.G3
+         J2.G2
+         J2.G1
+         J2.CD1
+         C10.2
+         J2.P8
+         Q3.2
+         J2.P5
+         J2.P4
+         U2.3
+         C15.2
+         R6.1
+         C13.2
+         J5.2
+.ADD_TER J2.P7  Net-(J2-PadP7)
+.TER     R3.2
+.ADD_TER J2.P3  Net-(J2-PadP3)
+.TER     R4.2
+.ADD_TER R10.1  Net-(R10-Pad1)
+.TER     R9.2
+         U7.5
+.ADD_TER L1.1  Net-(C13-Pad1)
+.TER     R12.2
+         C13.1
+.ADD_TER J6.1  Net-(C17-Pad1)
+.TER     L1.2
+         C17.1
+.ADD_TER U1.16  Net-(Q2-Pad3)
+.TER     Q2.3
+.ADD_TER U1.1  Net-(Q1-Pad3)
+.TER     Q1.3
+.ADD_TER C21.1  Net-(C21-Pad1)
+.TER     U1.24
+         J1.1
+.ADD_TER J1.3  Net-(J1-Pad3)
+.TER     U1.27
+.ADD_TER U5.4  Net-(J3-Pad3)
+.TER     J3.3
+.ADD_TER Q1.1  Net-(J4-Pad1)
+.TER     R1.2
+         J4.1
+.ADD_TER Q2.1  Net-(J4-Pad2)
+.TER     J4.2
+         R2.2
+.ADD_TER C19.1  Net-(C19-Pad1)
+.TER     U8.3
+         D3.2
+.ADD_TER U4.4  Net-(J3-Pad2)
+.TER     J3.2
+.ADD_TER U1.66  Net-(U1-Pad66)
+.TER     U6.2
+.ADD_TER R13.2  Net-(R13-Pad2)
+.TER     U6.4
+.ADD_TER D2.2  Net-(D2-Pad2)
+.TER     R13.1
+.ADD_TER J3.4  Net-(J3-Pad4)
+.TER     U3.2
+
+.END
