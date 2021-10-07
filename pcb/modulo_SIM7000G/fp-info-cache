@@ -1,4 +1,11 @@
-19208961484284507
+19212228423786384
+115Q-BCA0
+115QBCA0
+115Q-BCA0-2
+Connector
+0
+13
+13
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73654,13 +73661,6 @@ GSM NB-IoT Module BC66 M66
 116
 58
 RF_GSM
-SIM7000
-SIM7000
-Undefined or Miscellaneous
-0
-68
-68
-RF_GSM
 SIMCom_SIM800C
 Quad-Band GSM/GPRS module, 17.6x15.7x2.3mm, http://simcom.ee/documents/SIM800C/SIM800C_Hardware_Design_V1.05.pdf
 GSM Module SIM800C
@@ -76299,6 +76299,13 @@ rotary encoder
 0
 5
 4
+SIM7000G
+SIM7000
+
+
+0
+68
+68
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -83033,3 +83040,10 @@ varistor SIOV
 0
 2
 2
+conn_ufl
+1661
+
+
+0
+4
+4
