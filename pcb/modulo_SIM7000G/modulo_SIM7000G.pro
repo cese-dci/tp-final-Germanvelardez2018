@@ -1,4 +1,4 @@
-update=jue 07 oct 2021 20:36:23
+update=mar 12 oct 2021 16:56:01
 version=1
 last_client=kicad
 [general]
@@ -248,28 +248,6 @@ Enabled=0
 Name=Default
 Clearance=0.4
 TrackWidth=0.5
-ViaDiameter=1.4
-ViaDrill=0.7
-uViaDiameter=0.3
-uViaDrill=0.1
-dPairWidth=0.6
-dPairGap=0.25
-dPairViaGap=0.25
-[pcbnew/Netclasses/1]
-Name=SIM7000
-Clearance=0.4
-TrackWidth=0.5
-ViaDiameter=1.4
-ViaDrill=0.7
-uViaDiameter=0.3
-uViaDrill=0.1
-dPairWidth=0.6
-dPairGap=0.25
-dPairViaGap=0.25
-[pcbnew/Netclasses/2]
-Name=ci
-Clearance=0.1
-TrackWidth=0.4
 ViaDiameter=1.4
 ViaDrill=0.7
 uViaDiameter=0.3

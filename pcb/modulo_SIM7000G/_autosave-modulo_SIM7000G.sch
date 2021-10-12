@@ -1758,8 +1758,6 @@ F 3 "" H 7450 3600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7550 3600 7450 3600
-Text Label 10500 5750 2    50   ~ 0
-NRESET
 Wire Wire Line
 	4750 3500 7000 3500
 Wire Wire Line
@@ -1776,8 +1774,6 @@ Wire Notes Line
 	10500 650  10500 2350
 Wire Notes Line
 	8400 650  8400 2350
-Text Notes 10300 5500 0    50   ~ 0
-INTERFAZ SERIAL
 Wire Wire Line
 	4050 2800 7550 2800
 Wire Wire Line
@@ -1884,8 +1880,42 @@ Wire Wire Line
 	7550 1600 7550 2800
 Wire Wire Line
 	6800 6250 6200 6250
-Text Label 10500 6250 2    50   ~ 0
-POWERKEY
+Wire Wire Line
+	10100 4000 10800 4000
+Wire Wire Line
+	9850 4100 10800 4100
+Wire Wire Line
+	9850 4200 10800 4200
+Wire Wire Line
+	10100 4300 10800 4300
+Text Label 10800 4000 0    50   ~ 0
+DTR
+Text Label 10800 4100 0    50   ~ 0
+RI
+Text Label 10800 4200 0    50   ~ 0
+TX
+Text Label 10800 4300 0    50   ~ 0
+RX
+Wire Wire Line
+	10500 5850 10750 5850
+Text Label 10500 5850 2    50   ~ 0
+RX
+Wire Wire Line
+	10500 5950 10750 5950
+Text Label 10500 5950 2    50   ~ 0
+TX
+Wire Wire Line
+	10500 6050 10750 6050
+Text Label 10500 6050 2    50   ~ 0
+RI
+Wire Wire Line
+	10500 6150 10750 6150
+Text Label 10500 6150 2    50   ~ 0
+DTR
+Wire Wire Line
+	10750 6250 10500 6250
+Wire Wire Line
+	10500 5750 10750 5750
 $Comp
 L Connector_Generic:Conn_01x06 J1
 U 1 1 627FE42D
@@ -1897,40 +1927,10 @@ F 3 "~" H 10950 5950 50  0001 C CNN
 	1    10950 5950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10100 4000 10800 4000
-Wire Wire Line
-	9850 4100 10800 4100
-Wire Wire Line
-	9850 4200 10800 4200
-Wire Wire Line
-	10100 4300 10800 4300
-Wire Wire Line
-	10500 5750 10750 5750
-Wire Wire Line
-	10750 6250 10500 6250
-Text Label 10800 4000 0    50   ~ 0
-DTR
-Text Label 10800 4100 0    50   ~ 0
-RI
-Text Label 10800 4200 0    50   ~ 0
-TX
-Text Label 10800 4300 0    50   ~ 0
-RX
-Text Label 10500 6150 2    50   ~ 0
-DTR
-Wire Wire Line
-	10500 6150 10750 6150
-Text Label 10500 6050 2    50   ~ 0
-RI
-Wire Wire Line
-	10500 6050 10750 6050
-Text Label 10500 5950 2    50   ~ 0
-TX
-Wire Wire Line
-	10500 5950 10750 5950
-Text Label 10500 5850 2    50   ~ 0
-RX
-Wire Wire Line
-	10500 5850 10750 5850
+Text Label 10500 6250 2    50   ~ 0
+POWERKEY
+Text Notes 10300 5500 0    50   ~ 0
+INTERFAZ SERIAL
+Text Label 10500 5750 2    50   ~ 0
+NRESET
 $EndSCHEMATC
