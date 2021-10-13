@@ -21,7 +21,7 @@
 
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal hide)
+    (31 B.Cu signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
@@ -43,7 +43,7 @@
   )
 
   (setup
-    (last_trace_width 0.4)
+    (last_trace_width 0.5)
     (user_trace_width 0.4)
     (user_trace_width 0.5)
     (user_trace_width 0.6)
@@ -395,10 +395,10 @@
       (net 1 GND))
     (pad 3 smd rect (at 0.65 0 270) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)
       (net 13 "Net-(Q2-Pad3)"))
-    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-416.wrl
+    (model :PROJECTDIR:proyectos-kicad/tpfinal/pcb/lib/LIB_NTE4153NT1G/3dshapes/SC-89.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 90))
     )
   )
 
@@ -2136,10 +2136,10 @@
       (net 1 GND))
     (pad 3 smd rect (at 0.65 0 270) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)
       (net 12 "Net-(Q1-Pad3)"))
-    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-416.wrl
+    (model :PROJECTDIR:proyectos-kicad/tpfinal/pcb/lib/LIB_NTE4153NT1G/3dshapes/SC-89.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 90))
     )
   )
 
@@ -2177,10 +2177,10 @@
       (net 1 GND))
     (pad 1 smd rect (at -0.65 -0.5) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)
       (net 14 "Net-(Q3-Pad1)"))
-    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-416.wrl
+    (model :PROJECTDIR:proyectos-kicad/tpfinal/pcb/lib/LIB_NTE4153NT1G/3dshapes/SC-89.STEP
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 5 90))
     )
   )
 
@@ -3194,8 +3194,8 @@
   (segment (start 118.9125 131.4125) (end 117.5 130) (width 0.5) (layer F.Cu) (net 25))
   (segment (start 120.5 131.4125) (end 118.9125 131.4125) (width 0.5) (layer F.Cu) (net 25))
   (segment (start 161.5 137) (end 161.5 134.5) (width 0.8) (layer F.Cu) (net 26))
-  (segment (start 162 134) (end 161.5 134.5) (width 0.8) (layer F.Cu) (net 26))
-  (segment (start 169.5 134) (end 162 134) (width 0.8) (layer F.Cu) (net 26))
+  (segment (start 162 134) (end 161.5 134.5) (width 0.5) (layer F.Cu) (net 26))
+  (segment (start 169.5 134) (end 162 134) (width 0.5) (layer F.Cu) (net 26))
   (segment (start 155 125) (end 155 124) (width 0.5) (layer F.Cu) (net 27))
   (segment (start 155 125) (end 155 126) (width 0.5) (layer F.Cu) (net 27))
   (segment (start 150.5 130.5) (end 150.5 127.5) (width 0.5) (layer F.Cu) (net 27))
