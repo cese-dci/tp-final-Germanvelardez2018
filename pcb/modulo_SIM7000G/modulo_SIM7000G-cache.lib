@@ -1,6 +1,31 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_Conn_Coaxial
+#
+DEF Connector_Conn_Coaxial J 0 40 Y N 1 F N
+F0 "J" 10 120 50 H V C CNN
+F1 "Connector_Conn_Coaxial" 115 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *BNC*
+ *SMA*
+ *SMB*
+ *SMC*
+ *Cinch*
+$ENDFPLIST
+DRAW
+A -2 0 71 1636 0 0 1 10 N -70 20 70 0
+A -1 0 71 0 -1638 0 1 10 N 70 0 -70 -20
+C 0 0 20 0 1 8 N
+P 2 0 1 0 -100 0 -20 0 N
+P 2 0 1 0 0 -100 0 -70 N
+X In 1 -200 0 100 R 50 50 1 1 P
+X Ext 2 0 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic_Conn_01x06
 #
 DEF Connector_Generic_Conn_01x06 J 0 40 Y N 1 F N
@@ -246,28 +271,6 @@ X GND_5 P5 1000 1100 200 D 50 50 0 0 P
 X VPP P6 800 1100 200 D 50 50 0 0 P
 X I/O P7 600 1100 200 D 50 50 0 0 P
 X RESERVED_2 P8 400 1100 200 D 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
-# modulo_SIM7000G-rescue_1661-conn_ufl-modulo_SIM7000G-rescue
-#
-DEF modulo_SIM7000G-rescue_1661-conn_ufl-modulo_SIM7000G-rescue J 0 10 Y N 1 L N
-F0 "J" 350 250 60 H V C CNN
-F1 "modulo_SIM7000G-rescue_1661-conn_ufl-modulo_SIM7000G-rescue" 400 200 60 H V C CNN
-F2 "CONN_1661_ADA" 350 -150 60 H I C CNN
-F3 "" 0 0 60 H V C CNN
-$FPLIST
- CONN_1661_ADA
-$ENDFPLIST
-DRAW
-P 2 1 1 5 200 -100 500 -100 N
-P 2 1 1 5 200 100 200 -100 N
-P 2 1 1 5 400 0 200 0 N
-P 2 1 1 5 400 0 350 -33 N
-P 2 1 1 5 400 0 350 33 N
-P 2 1 1 5 500 -100 500 100 N
-P 2 1 1 5 500 100 200 100 N
-X 1 1 0 0 200 R 59 59 1 1 B
 ENDDRAW
 ENDDEF
 #
