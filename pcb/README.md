@@ -1,9 +1,8 @@
 ## Archivos Kicad ##
+Est directorio contiene 2 carpetas:
+<ul>
+  <li>[lib] Librerias de componentes y modelos 3D</li>
+  <li>[modulo_SIM7000G] Carpeta del proyecto KICAD</li>
+  <ul>
 
-En este directorio debería ir:
 
-* Archivos de proyecto.
-* Esquemático.
-* PCB.
-* Modelos  3D.
-* Bibliotecas de símbolos y huellas externas (si son necesarios).
