@@ -24,3 +24,23 @@ Se repositorio esta estructurado de la siguiente manera.
 
 
 
+
+## Replica de modulo de comunicacion basado en SIM7000
+# Diseño final
+
+
+ ### Dimensiones del nuevo modulo:
+  <ul>
+    <li>
+     Largo: 80 mm
+    </li>  
+    <li>
+    Ancho: 60 mm
+    </li> 
+  </lu> 
+
+  ### Primera tentativa de posicionamiento de elementos
+  
+<p align="center">
+  <img src="./diseño_final.jpg" width="480" height="320" >
+</p>
